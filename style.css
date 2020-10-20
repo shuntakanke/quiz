@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(196, 188, 188);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.quiz-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px rgba(0,0,0,0.1);
+  width: 66%;
+  max-width: 500px;
+  overflow: hidden;
+}
+
+.quiz-header {
+  padding: 2rem; 
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+input {
+  cursor: pointer;
+}
+
+ul li label{
+  cursor: pointer;
+}
+
+button {
+  background-color: rgb(55, 154, 151);
+  display: block;
+  width: 100%;
+  padding: 1.3rem;
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+}
+
+button:hover {
+  background-color: rgba(55, 154, 151, 0.9);
+}
